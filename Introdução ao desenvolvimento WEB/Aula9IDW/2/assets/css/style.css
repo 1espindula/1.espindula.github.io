@@ -1,0 +1,165 @@
+* {
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+header {
+    background-color: Cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+header h1{
+    margin: 10px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+  
+ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    margin: auto 0;
+}
+
+footer{
+    height: 10vh;
+    background-color: BurlyWood;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sobreMim {
+    height: 90vh;
+    background-color: BlanchedAlmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobreMim p{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+    
+
+.sobreMim h2 {
+    font-size: 3em;
+}
+
+.imgEu {
+    width: 260px;
+    height: 260px;
+    border-radius: 20%;
+
+}
+
+.imgLin {
+    width: 70px;
+    height: 70px;
+}
+
+.imgIns{
+    width: 80px;
+    height:80px;
+    margin-bottom: -10px;
+    
+}
+
+.imgGit{
+    width: 70px;
+    height: 70px;
+}
+
+.sobre p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.contato{
+    height: 100vh;
+    background-color: NavajoWhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.contato p{
+    font-size: 20px;
+}
+
+.sm{
+    font-size: 2em;
+    }
+
+.sm a {
+    margin:10px;
+
+}
+.sm a:hover {
+    color:rgb(248, 248, 248);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.itens img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 80px;
+}
+
+.item p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.trabalho {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: Wheat;
+}
+

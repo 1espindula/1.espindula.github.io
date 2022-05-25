@@ -1,0 +1,134 @@
+body{
+  display: flex;
+  flex-direction: column;
+    background-color: rgb(197, 151, 189);
+  }
+
+
+
+#imgFoto {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border-style: solid;
+  border-width: thick;
+  color: aliceblue;
+}
+
+.conteudo {
+  display: flex;
+}
+
+.centro { 
+  width: 98%;
+  height: 80px;
+  float: left;
+  background-color: rgb(245, 245, 245);
+  padding: 0px ;
+  border-radius: 100px;
+  border: 20px;
+  margin: 15px;
+  color: rgb(8, 0, 6);
+  display: block;
+}
+ 
+.tudo2 { align-items: center;
+  display: flex;
+}
+.Endereço { align-items: center;
+  display: flex;
+  
+}
+
+.Telefone { align-items: center;
+  display: flex;
+}
+
+.Email {align-items: center;
+  display: flex;
+}
+
+.idade {align-items: center;
+  display: flex;
+}
+
+.naturalidade {align-items: center;
+  display: flex;
+}
+
+.info {
+
+  margin: auto 0 auto 32px;
+}
+
+.info h3 {
+  margin: 0 8px 0 0;
+}
+
+.info div {
+  margin-bottom: 8px;
+}
+
+.linhaobj {
+  margin-top: -1px;
+}
+
+.linha1 {
+  margin-top: -15px ;
+}
+.linhaobjj {
+  margin-top: -9px;
+}
+.linhaformm {
+  margin-top: -15px;
+}
+.linhaform { align-items: center;
+  display: flex;
+  margin-top: -20px;
+}
+
+.Escola { align-items: center;
+  display: flex;
+  margin-top: -30px;
+}
+
+.curso { align-items: center;
+  display: flex;
+  margin-top: -30px;
+}
+
+.habilidades {width: 270px;
+  padding-right: 30px;
+}
+
+
+.redes {align-items: center;
+  display: flex;
+ margin-top: 30px;
+ padding-left: 40px;
+
+}
+
+.titulorede { 
+  align-items: center;
+  display: flex;
+ margin-top: 30px;
+ padding-left: 40px;
+
+
+}
+
+.tudo2 {align-items: center;
+  display: flex;
+ 
+}
+
+.expericenciasprof{
+  border-right: 1px solid #000;
+  width: 500px;
+  border-left: 1px solid #000;
+  height: 200px;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 20px;
+}

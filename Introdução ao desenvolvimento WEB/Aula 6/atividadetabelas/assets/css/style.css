@@ -1,0 +1,270 @@
+* {
+    margin: 0 auto;
+}
+
+a, a:link, a:hover, a:visited{
+    text-emphasis: none;
+    color: #fff;
+}
+
+body{
+    background-color: #e2e2e2;
+}
+
+table, td, th{
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse: collapse;
+    padding: 7px 7px 7px 7px;
+}
+
+th{
+    color: darkgray;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+
+.divTudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divLinha{
+    clear: both;
+}
+
+.h2TituloSessao{
+    font-size: 20px;
+    margin: 10px 0px 10px 10px;
+}
+
+.imgClube{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.divMenu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.itemMenu{
+    float: left;
+    color: #fff;
+    text-align: center;
+    width: 10.3%;
+    height: 40%;
+}
+
+.itemMenu:hover{
+    background-color: #000;
+}
+
+.h3TituloGrupo{
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+}
+
+.thNomeClube{
+    width: 30%;
+    text-align: center;
+
+}
+
+.jogador{
+    text-align: left;
+    
+}
+
+.proxJogos{ 
+    background-color: #ffff ;
+    width: 50%;
+    
+
+}
+.tdPosicao1{
+    width: 3%;
+    font-size: 14px;
+    border-left: 3px solid blue;
+
+}
+
+.tdPosicao2{
+    width: 3%;
+    font-size: 14px;
+    border-left: 3px solid blue;
+
+}
+
+.tdPosicao3{
+    width: 3%;
+    font-size: 14px;
+    border-left: 3px solid rgb(240, 105, 15);
+
+}
+
+.tdNomeClube{
+    text-align: center; 
+    
+}   
+
+.info{
+    text-align: center;
+    margin-left: 100px;
+    border-left: 1px solid #000;
+    padding: 10px;
+}
+
+.tdImgClube{
+    width: 23%;
+    
+  
+}
+
+.thUltimas{
+    width: 20%;
+}
+
+.divEmp{
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin-right: 5px;
+}
+
+.divDer{
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin-right: 5px;
+}
+
+.divVit{
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  float: right;
+  margin-right: 5px;
+}
+
+.tdJogador{
+    text-align: left;
+    width: 90%;
+}
+
+.spanNomeClube{
+    color: darkgray;
+    font: 12px;
+}
+
+.totalJogo{
+    color: darkgray;
+    font-size: 13px;
+    white-space: nowrap;
+    
+}
+
+#divCabecalho{
+  background-color: #162e58;
+  min-height: 100px;
+  padding: 20px 50px 10px 50px;
+  position: relative;
+}
+
+#h1TituloCabecalho{
+    color: #fff;
+    float: left;
+    min-width: 50%;
+    font-size: 16px;
+    text-align: left;
+}
+
+#divClassificacao{
+    width: 50%;
+    background-color: #fff;
+}
+
+#tableCassificacao{
+    width: 100%;
+    background-color: #fff;
+}
+
+#divGoleadores{
+    width: 50%;
+}
+
+#tableGoleadores{
+    width: 100%;
+    background-color: #fff;
+}
+
+#tableGoleadores td{
+    padding: 20px 10px 10px 10px;
+}
+
+#tableJogos{
+    width: 100%;
+    background-color: #fff;
+}
+
+#tableJogos .tdTableJogos{
+    padding: 10px 10px 10px 10px;
+}
+
+#tableJogos .tableJogo{
+    width: 100%;
+}
+
+#tableJogos th, #tableJogos td{
+    border-bottom: 0px;
+}
+
+.prox{
+    background: white;
+    width: 47.5%;
+    padding: 20px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 50%;
+}
+
+.tableJogo{
+    margin: 0;
+    width: 100%;
+}
+
+.info{
+    width: 20%;
+    margin-left: 40px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}

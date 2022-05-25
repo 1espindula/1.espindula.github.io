@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(197, 151, 189);
+    }
+
+
+
+#imgFoto {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border-style: solid;
+  border-width: thick;
+  color: aliceblue;
+}
+
+.centro { 
+  width: 100%;
+  height: 80px;
+  float: left;
+  background-color: rgb(245, 245, 245);
+  padding: 0px ;
+  border-radius: 100px;
+  border: 20px;
+  margin: 15px;
+  color: rgb(8, 0, 6);
+  display: block;
+}
+ 
+.tudo2 { align-items: center;
+  display: flex;
+}
+.Endereço { align-items: center;
+  display: flex;
+  
+}
+
+.Telefone { align-items: center;
+  display: flex;
+}
+
+.Email {align-items: center;
+  display: flex;
+}
